@@ -1,0 +1,173 @@
+
+body{
+background-image: url("background.jpg");
+background-size: cover;
+font-family: Helvetica;
+
+}
+.topnav {
+  overflow: hidden;
+padding-left: 50px;
+
+}
+.topnav a {
+  float:right;
+  display: block;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 110px;
+  font-weight: bold;
+  width: 110px;
+  height: 16px;
+}
+
+.topnav a:hover {
+  color: yellow;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.name{
+	float:left;
+  display: block;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 90px;
+  margin-left:100px;
+  font-weight: bold;
+}
+.title{
+margin-top:150px;
+width:470px;
+height: 150px;
+color: white;
+margin-left: 100px;
+}
+.paragraph{
+margin-top:10px;
+width:550px;
+height: 50px;
+color: white;
+margin-left: 100px;
+font-size: 17px;	
+}
+.paragraph2{
+margin-top:15px;
+width:600px;
+height: 50px;
+color: white;
+margin-left: 100px;
+font-size: 16px;	
+}
+
+.text{
+  font-weight: bold;
+}
+
+.input-group{
+margin-top:12px;
+width:300px;
+height: 35px;
+margin-left: 100px;
+border-radius: 3px;
+border: none;
+}
+
+.btn{
+width:250px;
+height: 40px;
+margin-left: 10px;
+border-radius: 3px;
+border: none;
+background-color: #E74C3C;
+color: white;	
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+background-image: url("background.jpg");
+background-size: 650px 930px;
+
+}
+}
+@media only screen and (max-width: 600px) {
+  .title {
+   margin-top:15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .title h1 {
+  font-size:39px;
+	color:white;
+	margin-left:-70px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .paragraph {
+	margin-top:10px;
+	font-size:22px;
+	color:white;
+  margin-left:30px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .paragraph2 {
+  margin-top:40px;
+  font-size:21px;
+  color:white;
+  margin-left:30px;
+}
+}
+@media only screen and (max-width: 600px) {
+  .input-group
+{
+  margin-top:35px;
+  margin-left:30px;
+  height:47px;
+  width:340px;
+  color:white;
+}
+}
+@media only screen and (max-width: 600px) {
+  .btn{
+	margin-top:20px;
+  margin-left:30px;
+  height:47px;
+  width:300px;
+  color:white;
+	background-color: #E74C3C;
+}
+}
+
+
+
